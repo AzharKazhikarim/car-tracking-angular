@@ -1,0 +1,23 @@
+<div class="car-card" [ngClass]="{ active: car.infringement.status }">
+  <div class="car__data">
+    <div class="carID">
+      <h3 class="transparent-h">CarID:</h3>
+      <p>{{ car.carID }}</p>
+    </div>
+
+    <div class="car-Infr">
+      <h3 class="transparent-h">Нарушения:</h3>
+      <p *ngIf="car.infringement.status == false; else el">Не нарушил</p>
+      <ng-template #el
+        ><p>
+          Нарушил со скоростью {{ car.infringement.speed }} км/ч
+        </p></ng-template
+      >
+    </div>
+
+    <div class="car-status">
+      <h3 class="transparent-h">Состояние:</h3>
+      <p>{{ car.status }}</p>
+    </div>
+  </div>
+</div>

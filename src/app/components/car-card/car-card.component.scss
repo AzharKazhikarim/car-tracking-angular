@@ -1,0 +1,32 @@
+.car-card {
+  border: 2px solid #1d9bf0;
+  padding: 30px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.active {
+  border: 2px solid red;
+}
+.carID {
+  display: flex;
+  justify-content: space-between;
+}
+.car-Infr {
+  display: flex;
+  align-items: center;
+}
+.car-Infr > *:not(:last-child) {
+  margin: 0 7px 0 0;
+}
+.car__data > *:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+.car-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transparent-h {
+  color: #6c757d;
+}

@@ -1,0 +1,18 @@
+<div class="sidebar">
+  <div class="logo_content">
+    <div class="logo">
+      <i class="bx bx-navigation"></i>
+      <div class="logo_name">Трекинг маршуртов</div>
+    </div>
+  </div>
+  <ul class="nav_list">
+    <li>
+      <form action="#">
+        <input type="text" id="search" placeholder="Найти..." />
+      </form>
+    </li>
+  </ul>
+  <div id="cars">
+    <app-car-card *ngFor="let car of cars" [car]="car"></app-car-card>
+  </div>
+</div>

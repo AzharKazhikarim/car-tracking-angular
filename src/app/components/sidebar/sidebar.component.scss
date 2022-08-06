@@ -1,0 +1,36 @@
+.sidebar{
+    padding: 30px;
+}
+.sidebar .logo {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 12px 0;
+}
+.logo>*:not(:last-child){
+   margin: 0 7px 0 0;
+}
+.bx-navigation{
+    font-size: 30px;
+}
+.logo_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#search{
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    font-size: 15px;
+    padding: 15px;
+}
+.logo_name{
+    font-size: 20px;
+}
+#cars{
+    margin: 20px 0;
+}

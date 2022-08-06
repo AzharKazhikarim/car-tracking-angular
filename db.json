@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "carID": 1,
+      "startPoint": {
+        "lat": 51.12923564806568,
+        "lng": 71.4279232318167
+      },
+      "endPoint": {
+        "lat": 51.13077612181946,
+        "lng": 71.4296181646681
+      },
+      "status": "on",
+      "infringement": {
+        "speed": 80,
+        "status": false
+      },
+      "fuel": 60
+    },
+    {
+      "carID": 2,
+      "startPoint": {
+        "lat": 51.128236667096736,
+        "lng": 71.42739222437278
+      },
+      "endPoint": {
+        "lat": 51.12710984444874,
+        "lng": 71.42223233385684
+      },
+      "status": "on",
+      "infringement": {
+        "speed": 150,
+        "status": true
+      },
+      "fuel": 60
+    },
+    {
+      "carID": 3,
+      "startPoint": {
+        "lat": 51.127218173092295,
+        "lng": 71.43342665985487
+      },
+      "endPoint": {
+        "lat": 51.124315017315105,
+        "lng": 71.43652183297749
+      },
+      "status": "on",
+      "infringement": {
+        "speed": 80,
+        "status": false
+      },
+      "fuel": 60
+    }
+  ]
+}
